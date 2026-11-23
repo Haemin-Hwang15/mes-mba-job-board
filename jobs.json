@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-23T06:29:05.192560+00:00",
-  "sources_checked": 30,
+  "last_updated": "2026-11-23T06:34:07.381244+00:00",
+  "sources_checked": 33,
   "sources_failed": [
     "DraftKings",
     "Fanatics",
@@ -23,7 +23,6 @@
     "SiriusXM",
     "iHeartMedia",
     "Universal Music Group",
-    "Sony Music",
     "Warner Music Group",
     "Electronic Arts",
     "Zynga",
@@ -39,11 +38,9 @@
     "NBCUniversal",
     "Warner Bros Discovery",
     "NBA",
-    "NFL",
-    "MLB",
     "NHL"
   ],
-  "total_jobs": 412,
+  "total_jobs": 465,
   "jobs": [
     {
       "id": "greenhouse-reddit-8407162",
@@ -606,6 +603,22 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-sonymusicentertainment-8927686002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Director, Marketing & Trademarks, Business & Legal Affairs",
+      "location": "United States, New York, New York",
+      "category": "Corporate/Shared Services",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-11-16T14:54:32-05:00",
+      "updated_date": "2026-11-16T14:54:32-05:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8927686002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8927686002",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-fanduel-8359866",
       "company": "FanDuel",
       "industry": "Sports",
@@ -782,6 +795,22 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-sonymusicentertainment-8938943002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Audience Marketing Manager",
+      "location": "Asia, Hong Kong, Hong Kong",
+      "category": "SME Hong Kong",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-11-12T23:03:48-05:00",
+      "updated_date": "2026-11-17T21:30:22-05:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8938943002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8938943002",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-pinterest-8336035",
       "company": "Pinterest",
       "industry": "Media Technology",
@@ -891,6 +920,22 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://boards.greenhouse.io/crunchyroll/jobs/8331670?gh_jid=8331670",
       "apply_url": "https://boards.greenhouse.io/crunchyroll/jobs/8331670?gh_jid=8331670",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-nflcareers-5478015008",
+      "company": "NFL",
+      "industry": "Sports",
+      "title": "Manager, DTC Product Marketing ",
+      "location": "Inglewood, California, United States",
+      "category": "Media Marketing",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-11-11T16:56:33-05:00",
+      "updated_date": "2026-11-16T12:42:32-05:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/nflcareers/jobs/5478015008",
+      "apply_url": "https://job-boards.greenhouse.io/nflcareers/jobs/5478015008",
       "source": "Greenhouse"
     },
     {
@@ -1310,6 +1355,22 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-sonymusicentertainment-8933305002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Intern, Commercial Partnerships",
+      "location": "Canada, Ontario, Toronto",
+      "category": "Canada Commercial Partnerships",
+      "job_type": "Internship",
+      "posted_date": "2026-11-06T11:24:39-05:00",
+      "updated_date": "2026-11-06T11:24:39-05:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8933305002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8933305002",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-riotgames-8351154",
       "company": "Riot Games",
       "industry": "Gaming",
@@ -1582,6 +1643,22 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-nflcareers-5471368008",
+      "company": "NFL",
+      "industry": "Sports",
+      "title": "Associate, Reporting & Finance System Administration (External Agency Staff)",
+      "location": "New York, New York, United States",
+      "category": "Accounting & Finance - League Office",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-11-03T18:00:28-05:00",
+      "updated_date": "2026-11-16T12:42:32-05:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/nflcareers/jobs/5471368008",
+      "apply_url": "https://job-boards.greenhouse.io/nflcareers/jobs/5471368008",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-axs-8909805002",
       "company": "AXS",
       "industry": "Live Entertainment",
@@ -1758,6 +1835,22 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-sonymusicentertainment-8923882002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Coordinator, Artist Lead, Marketing – Columbia Records",
+      "location": "United States, New York, New York",
+      "category": "Columbia Frontline",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-30T16:38:03-04:00",
+      "updated_date": "2026-10-30T17:17:14-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8923882002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8923882002",
+      "source": "Greenhouse"
+    },
+    {
       "id": "ashby-teamworks-13cc2066-5dfe-45ec-8064-3d7a20d9fc06",
       "company": "Teamworks",
       "industry": "Sports",
@@ -1851,6 +1944,22 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://boards.greenhouse.io/crunchyroll/jobs/8310656?gh_jid=8310656",
       "apply_url": "https://boards.greenhouse.io/crunchyroll/jobs/8310656?gh_jid=8310656",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8911307002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Finance & Audit Accountant",
+      "location": "UK & Ireland, United Kingdom, London",
+      "category": "Finance (SME UK)",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-29T13:17:13-04:00",
+      "updated_date": "2026-10-29T13:17:13-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8911307002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8911307002",
       "source": "Greenhouse"
     },
     {
@@ -1950,6 +2059,22 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-nflcareers-5466584008",
+      "company": "NFL",
+      "industry": "Sports",
+      "title": "Seasonal Designer, Global Creative Marketing ",
+      "location": "Inglewood, California, United States",
+      "category": "Social & Influencer Marketing",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-28T18:48:54-04:00",
+      "updated_date": "2026-11-16T12:42:32-05:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/nflcareers/jobs/5466584008",
+      "apply_url": "https://job-boards.greenhouse.io/nflcareers/jobs/5466584008",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-roku-8329342",
       "company": "Roku",
       "industry": "Streaming",
@@ -2046,6 +2171,22 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-sonymusicentertainment-8921867002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Director, Audience Development & Digital Marketing (Parental leave 12 Months FTC)",
+      "location": "UK & Ireland, United Kingdom, London",
+      "category": "The Orchard",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-28T10:13:23-04:00",
+      "updated_date": "2026-10-28T10:13:23-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8921867002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8921867002",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-wppmedia-5256488008",
       "company": "WPP Media",
       "industry": "Media & Advertising",
@@ -2059,6 +2200,22 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://job-boards.greenhouse.io/wppmedia/jobs/5256488008",
       "apply_url": "https://job-boards.greenhouse.io/wppmedia/jobs/5256488008",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8921440002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Manager, Corporate Development, Asia",
+      "location": "Asia, Indonesia, Jakarta",
+      "category": "SME China",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-28T06:44:44-04:00",
+      "updated_date": "2026-11-02T01:54:39-05:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8921440002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8921440002",
       "source": "Greenhouse"
     },
     {
@@ -2155,6 +2312,22 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://boards.greenhouse.io/crunchyroll/jobs/8328731?gh_jid=8328731",
       "apply_url": "https://boards.greenhouse.io/crunchyroll/jobs/8328731?gh_jid=8328731",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-nflcareers-5463494008",
+      "company": "NFL",
+      "industry": "Sports",
+      "title": "Senior Manager, Finance - League Operations",
+      "location": "New York, New York, United States",
+      "category": "Accounting & Finance - League Office",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-27T14:28:22-04:00",
+      "updated_date": "2026-11-16T12:42:32-05:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/nflcareers/jobs/5463494008",
+      "apply_url": "https://job-boards.greenhouse.io/nflcareers/jobs/5463494008",
       "source": "Greenhouse"
     },
     {
@@ -2462,6 +2635,54 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-sonymusicentertainment-8908517002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Director, Digital Retail Partnership and Marketing- The Orchard",
+      "location": "Asia, Taiwan, Taipei",
+      "category": "The Orchard",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-22T07:02:44-04:00",
+      "updated_date": "2026-10-22T07:02:44-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8908517002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8908517002",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8908508002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": " Director, Digital Retail Partnership and Marketing- The Orchard",
+      "location": "Asia, China, Beijing",
+      "category": "The Orchard",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-22T06:56:54-04:00",
+      "updated_date": "2026-10-22T06:56:54-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8908508002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8908508002",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8908507002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Director, Digital Retail Partnership and Marketing- The Orchard",
+      "location": "Asia, Hong Kong, Hong Kong",
+      "category": "The Orchard",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-22T06:54:25-04:00",
+      "updated_date": "2026-10-22T06:54:25-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8908507002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8908507002",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-scopely-5444465008",
       "company": "Scopely",
       "industry": "Gaming",
@@ -2571,6 +2792,22 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://www.pinterestcareers.com/jobs/?gh_jid=8282903",
       "apply_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8282903",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8905238002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Assistant.e marketing digital Filtr F/H/NB - Stage",
+      "location": "Europe, France, Paris",
+      "category": "SME France",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-21T06:13:45-04:00",
+      "updated_date": "2026-11-05T06:23:24-05:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8905238002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8905238002",
       "source": "Greenhouse"
     },
     {
@@ -2894,6 +3131,22 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-sonymusicentertainment-8895741002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Manager, Marketing Strategy, Mexico - The Orchard",
+      "location": "Latin America, Mexico, Mexico City",
+      "category": "The Orchard",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-16T17:24:40-04:00",
+      "updated_date": "2026-10-16T17:24:40-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8895741002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8895741002",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-roblox-8222470",
       "company": "Roblox",
       "industry": "Gaming",
@@ -2923,6 +3176,38 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://job-boards.greenhouse.io/wppmedia/jobs/5454964008",
       "apply_url": "https://job-boards.greenhouse.io/wppmedia/jobs/5454964008",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8887267002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Manager - Retail Marketing & DSP Relations",
+      "location": "Asia, India, Mumbai",
+      "category": "The Orchard",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-16T06:01:23-04:00",
+      "updated_date": "2026-10-16T06:01:23-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8887267002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8887267002",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8890967002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Marketing Manager - Frontline & Artist Development",
+      "location": "Asia, Philippines, Manila",
+      "category": "SME Philippines",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-16T04:18:26-04:00",
+      "updated_date": "2026-10-16T04:18:26-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8890967002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8890967002",
       "source": "Greenhouse"
     },
     {
@@ -3262,6 +3547,22 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-sonymusicentertainment-8871791002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Senior Product Manager, Data Platform - PDEGO",
+      "location": "UK & Ireland, United Kingdom, London",
+      "category": "Product & Engineering",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-13T12:05:14-04:00",
+      "updated_date": "2026-10-13T14:08:19-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8871791002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8871791002",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-hudl-8278569",
       "company": "Hudl",
       "industry": "Sports",
@@ -3291,6 +3592,22 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://www.weareroku.com/jobs/8274843?gh_jid=8274843",
       "apply_url": "https://www.weareroku.com/jobs/8274843?gh_jid=8274843",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8884691002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Assistant.e chef de projet marketing F/H/NB - The Orchard - stage",
+      "location": "Europe, France, Paris",
+      "category": "SME France",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-13T04:19:41-04:00",
+      "updated_date": "2026-11-05T06:21:07-05:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8884691002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8884691002",
       "source": "Greenhouse"
     },
     {
@@ -3342,6 +3659,22 @@
       "source": "Ashby"
     },
     {
+      "id": "greenhouse-nflcareers-5439717008",
+      "company": "NFL",
+      "industry": "Sports",
+      "title": "Sr. Manager, Club Revenue Analytics & Data Science",
+      "location": "New York, New York, United States",
+      "category": "Strategy & Business Intelligence",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-12T13:24:11-04:00",
+      "updated_date": "2026-11-16T12:42:32-05:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/nflcareers/jobs/5439717008",
+      "apply_url": "https://job-boards.greenhouse.io/nflcareers/jobs/5439717008",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-pinterest-7638564",
       "company": "Pinterest",
       "industry": "Media Technology",
@@ -3387,6 +3720,22 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://job-boards.greenhouse.io/oura/jobs/4438120009",
       "apply_url": "https://job-boards.greenhouse.io/oura/jobs/4438120009",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8879498002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Senior Director, Commercial Partnerships – Sony Music Nashville ",
+      "location": "United States, Tennessee, Nashville",
+      "category": "Commercial Partnerships",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-09T09:02:27-04:00",
+      "updated_date": "2026-10-09T09:02:27-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8879498002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8879498002",
       "source": "Greenhouse"
     },
     {
@@ -3563,6 +3912,22 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://www.pinterestcareers.com/jobs/?gh_jid=8238389",
       "apply_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8238389",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8871782002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Analyst, Marketing Financial Planning",
+      "location": "United States, New York, New York",
+      "category": "Finance (Corporate)",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-07T12:04:02-04:00",
+      "updated_date": "2026-10-16T12:49:11-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8871782002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8871782002",
       "source": "Greenhouse"
     },
     {
@@ -3803,6 +4168,22 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://job-boards.greenhouse.io/reddit/jobs/8244067",
       "apply_url": "https://job-boards.greenhouse.io/reddit/jobs/8244067",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8810666002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Senior Marketing Manager - The Orchard",
+      "location": "Africa, Nigeria, Lagos",
+      "category": "The Orchard",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-10-02T06:24:01-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8810666002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8810666002",
       "source": "Greenhouse"
     },
     {
@@ -4110,6 +4491,22 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-sonymusicentertainment-8845309002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Manager, Corporate Development - The Orchard",
+      "location": "United States, New York, New York",
+      "category": "The Orchard",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-09-25T16:14:34-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8845309002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8845309002",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-twitch-8843933002",
       "company": "Twitch",
       "industry": "Streaming",
@@ -4206,6 +4603,22 @@
       "source": "Ashby"
     },
     {
+      "id": "greenhouse-sonymusicentertainment-8833857002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Strategic Partnerships Coordinator - Ceremony Of Roses",
+      "location": "United States, California, Los Angeles",
+      "category": "Ceremony of Roses",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-09-24T16:46:15-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8833857002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8833857002",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-scopely-5427787008",
       "company": "Scopely",
       "industry": "Gaming",
@@ -4219,6 +4632,22 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://job-boards.greenhouse.io/scopely/jobs/5427787008?gh_jid=5427787008",
       "apply_url": "https://job-boards.greenhouse.io/scopely/jobs/5427787008?gh_jid=5427787008",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8842253002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Junior Manager, Music Content & Marketing - Liquid State",
+      "location": "Asia, China, Beijing",
+      "category": "Liquid State",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-09-24T07:03:54-04:00",
+      "updated_date": "2026-10-15T03:28:04-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8842253002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8842253002",
       "source": "Greenhouse"
     },
     {
@@ -4299,6 +4728,22 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://www.pinterestcareers.com/jobs/?gh_jid=8208419",
       "apply_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8208419",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8827992002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Jr. Manager, Marketing Strategy, Argentina - The Orchard",
+      "location": "Latin America, Argentina, Buenos Aires",
+      "category": "The Orchard",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-09-23T10:38:38-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8827992002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8827992002",
       "source": "Greenhouse"
     },
     {
@@ -4462,6 +4907,22 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-nflcareers-5419267008",
+      "company": "NFL",
+      "industry": "Sports",
+      "title": "Associate, Marketing Science & Strategy- (External Agency Employee)",
+      "location": "New York, New York, United States",
+      "category": "Marketing Science & Strategy",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-09-18T16:28:36-04:00",
+      "updated_date": "2026-11-16T12:42:32-05:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/nflcareers/jobs/5419267008",
+      "apply_url": "https://job-boards.greenhouse.io/nflcareers/jobs/5419267008",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-reddit-8212175",
       "company": "Reddit",
       "industry": "Media & Community",
@@ -4622,6 +5083,22 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-sonymusicentertainment-8796329002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Coordinator, Digital Marketing & Artist Development - Sony Music Nashville",
+      "location": "United States, Tennessee, Nashville",
+      "category": "Nashville Frontline",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-09-11T17:08:36-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8796329002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8796329002",
+      "source": "Greenhouse"
+    },
+    {
       "id": "lever-theathletic-90d11c0e-c951-4798-a83c-dac5fd53a3b6",
       "company": "The Athletic",
       "industry": "Sports Media",
@@ -4699,6 +5176,38 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://boards.greenhouse.io/crunchyroll/jobs/8170567?gh_jid=8170567",
       "apply_url": "https://boards.greenhouse.io/crunchyroll/jobs/8170567?gh_jid=8170567",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8788663002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Associate Director, Domestic Marketing",
+      "location": "Middle East, United Arab Emirates, Dubai",
+      "category": "SME Middle East",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-09-09T05:45:43-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8788663002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8788663002",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8772980002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Catalog Marketing Manager",
+      "location": "Asia, Taiwan, Taipei",
+      "category": "SME Taiwan",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-09-09T03:01:51-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8772980002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8772980002",
       "source": "Greenhouse"
     },
     {
@@ -4782,6 +5291,22 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-sonymusicentertainment-8770244002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Finance Analyst - The Merch Collective",
+      "location": "United States, Tennessee, Nashville",
+      "category": "The Merch Collective",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-09-03T16:22:29-04:00",
+      "updated_date": "2026-11-05T12:53:14-05:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8770244002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8770244002",
+      "source": "Greenhouse"
+    },
+    {
       "id": "lever-spotify-8251142e-f213-45df-89a9-914e814bd7a7",
       "company": "Spotify",
       "industry": "Music & Audio",
@@ -4811,6 +5336,22 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://job-boards.greenhouse.io/taketwo/jobs/8165127",
       "apply_url": "https://job-boards.greenhouse.io/taketwo/jobs/8165127",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8503286002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Digital Marketing Manager, Catalogue",
+      "location": "Asia, Malaysia, Kuala Lumpur",
+      "category": "SME Malaysia",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-09-02T05:24:03-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8503286002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8503286002",
       "source": "Greenhouse"
     },
     {
@@ -4891,6 +5432,22 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://www.riotgames.com/en/work-with-us/job/8160864?gh_jid=8160864",
       "apply_url": "https://www.riotgames.com/en/work-with-us/job/8160864?gh_jid=8160864",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8713070002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Coordinator, Marketing Operations",
+      "location": "Asia, Philippines, Manila",
+      "category": "SME Philippines",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-08-27T10:13:47-04:00",
+      "updated_date": "2026-10-16T06:51:02-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8713070002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8713070002",
       "source": "Greenhouse"
     },
     {
@@ -5003,6 +5560,38 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://job-boards.greenhouse.io/scopely/jobs/5396883008?gh_jid=5396883008",
       "apply_url": "https://job-boards.greenhouse.io/scopely/jobs/5396883008?gh_jid=5396883008",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8690605002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Finance Accountant",
+      "location": "Asia, Malaysia, Kuala Lumpur",
+      "category": "Finance (Corporate)",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-08-21T03:17:05-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8690605002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8690605002",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8733614002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Marketing Manager",
+      "location": "Asia, Hong Kong, Hong Kong",
+      "category": "SME Hong Kong",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-08-20T21:08:25-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8733614002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8733614002",
       "source": "Greenhouse"
     },
     {
@@ -5246,6 +5835,22 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-sonymusicentertainment-8699735002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Assistant Manager - Video Partnerships",
+      "location": "Asia, India, Mumbai",
+      "category": "SME India",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-08-13T07:28:42-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8699735002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8699735002",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-wppmedia-5290897008",
       "company": "WPP Media",
       "industry": "Media & Advertising",
@@ -5259,6 +5864,54 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://job-boards.greenhouse.io/wppmedia/jobs/5290897008",
       "apply_url": "https://job-boards.greenhouse.io/wppmedia/jobs/5290897008",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8690596002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Finance Director",
+      "location": "Asia, Vietnam, Ho Chi Minh City",
+      "category": "Finance (Corporate)",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-08-12T03:57:16-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8690596002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8690596002",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8690346002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Finance Director",
+      "location": "Asia, Indonesia, Jakarta",
+      "category": "Finance (Corporate)",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-08-12T03:43:50-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8690346002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8690346002",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8690344002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Finance Director",
+      "location": "Asia, Thailand, Bangkok",
+      "category": "Finance (Corporate)",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-08-12T02:29:55-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8690344002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8690344002",
       "source": "Greenhouse"
     },
     {
@@ -5566,6 +6219,22 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-sonymusicentertainment-8626284002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Digital Marketing Creative Manager – Domestic",
+      "location": "Asia, Indonesia, Jakarta",
+      "category": "SME Indonesia",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-07-17T05:29:34-04:00",
+      "updated_date": "2026-10-22T02:36:13-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8626284002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8626284002",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-riotgames-8063855",
       "company": "Riot Games",
       "industry": "Gaming",
@@ -5579,6 +6248,38 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://www.riotgames.com/en/work-with-us/job/8063855?gh_jid=8063855",
       "apply_url": "https://www.riotgames.com/en/work-with-us/job/8063855?gh_jid=8063855",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8630624002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Social Content & D2C Growth Supervisor",
+      "location": "Asia, China, Beijing",
+      "category": "SME China",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-07-15T23:28:53-04:00",
+      "updated_date": "2026-10-26T01:23:37-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8630624002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8630624002",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8630112002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "D2C Program Manager",
+      "location": "Asia, China, Shanghai",
+      "category": "SME China",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-07-15T22:51:32-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8630112002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8630112002",
       "source": "Greenhouse"
     },
     {
@@ -5646,6 +6347,22 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-sonymusicentertainment-8578357002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Catalogue Growth & Commercial Manager ",
+      "location": "Asia, Malaysia, Kuala Lumpur",
+      "category": "SME Malaysia",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-07-13T03:56:39-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8578357002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8578357002",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-wppmedia-5270876008",
       "company": "WPP Media",
       "industry": "Media & Advertising",
@@ -5678,6 +6395,38 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-sonymusicentertainment-8617129002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Senior Director, Creator Strategy & Viral Marketing - AWAL",
+      "location": "United States, California, Los Angeles",
+      "category": "AWAL",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-07-02T17:06:57-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8617129002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8617129002",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8615200002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Marketing Supervisor, Columbia ",
+      "location": "Asia, China, Beijing",
+      "category": "SME China",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-07-01T23:12:23-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8615200002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8615200002",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-wppmedia-5269373008",
       "company": "WPP Media",
       "industry": "Media & Advertising",
@@ -5691,6 +6440,22 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://job-boards.greenhouse.io/wppmedia/jobs/5269373008",
       "apply_url": "https://job-boards.greenhouse.io/wppmedia/jobs/5269373008",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8599966002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "College Marketing Representative, Nashville - The Orchard",
+      "location": "United States, Tennessee, Nashville",
+      "category": "Brand & Interactive Marketing - The Orchard",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-06-23T16:04:07-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8599966002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8599966002",
       "source": "Greenhouse"
     },
     {
@@ -5966,6 +6731,22 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-sonymusicentertainment-8554489002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Sr. Manager, Marketing - RCA China",
+      "location": "Asia, China, Shanghai",
+      "category": "RCA Records",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-05-19T23:17:20-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8554489002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8554489002",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-epicgames-5998666004",
       "company": "Epic Games",
       "industry": "Gaming",
@@ -6222,6 +7003,54 @@
       "source": "Greenhouse"
     },
     {
+      "id": "greenhouse-sonymusicentertainment-8486962002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "College Marketing Representative, Atlanta - The Orchard",
+      "location": "United States, Remote, Remote",
+      "category": "Brand & Interactive Marketing - The Orchard",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-04-15T14:19:10-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8486962002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8486962002",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8486928002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "College Marketing Representative, Philadelphia - The Orchard",
+      "location": "United States, Remote, Remote",
+      "category": "Brand & Interactive Marketing - The Orchard",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-04-15T14:17:39-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8486928002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8486928002",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8486882002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "College Marketing Representative, Houston - The Orchard",
+      "location": "United States, Remote, Remote",
+      "category": "Brand & Interactive Marketing - The Orchard",
+      "job_type": "Full-time / Other",
+      "posted_date": "2026-04-15T14:16:57-04:00",
+      "updated_date": "2026-10-07T10:58:20-04:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8486882002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8486882002",
+      "source": "Greenhouse"
+    },
+    {
       "id": "greenhouse-scopely-5181280008",
       "company": "Scopely",
       "industry": "Gaming",
@@ -6475,6 +7304,22 @@
       "visa_sponsorship": "Not specified",
       "company_website": "https://www.pinterestcareers.com/jobs/?gh_jid=7507652",
       "apply_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7507652",
+      "source": "Greenhouse"
+    },
+    {
+      "id": "greenhouse-sonymusicentertainment-8349267002",
+      "company": "Sony Music",
+      "industry": "Music",
+      "title": "Manager, Corporate Development, Asia",
+      "location": "Asia, China, Beijing",
+      "category": "SME China",
+      "job_type": "Full-time / Other",
+      "posted_date": "2025-12-22T22:13:22-05:00",
+      "updated_date": "2026-11-02T01:55:36-05:00",
+      "deadline": null,
+      "visa_sponsorship": "Not specified",
+      "company_website": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8349267002",
+      "apply_url": "https://job-boards.greenhouse.io/sonymusicentertainment/jobs/8349267002",
       "source": "Greenhouse"
     },
     {
