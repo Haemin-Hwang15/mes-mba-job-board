@@ -1,0 +1,11 @@
+
+{
+  "companies": [
+    {
+      "name": "FanDuel",
+      "industry": "Sports",
+      "platform": "greenhouse",
+      "board": "fanduel"
+    }
+  ]
+}
