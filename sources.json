@@ -1,10 +1,424 @@
 {
   "companies": [
-    {"name":"FanDuel","industry":"Sports","platform":"greenhouse","board":"fanduel"},
-    {"name":"Spotify","industry":"Music & Audio","platform":"lever","board":"spotify"},
-    {"name":"Discord","industry":"Gaming & Community","platform":"greenhouse","board":"discord"},
-    {"name":"Roblox","industry":"Gaming","platform":"greenhouse","board":"roblox"},
-    {"name":"Epic Games","industry":"Gaming","platform":"greenhouse","board":"epicgames"},
-    {"name":"Twitch","industry":"Streaming","platform":"greenhouse","board":"twitch"}
-    ]
+    {
+      "name": "FanDuel",
+      "industry": "Sports",
+      "platform": "greenhouse",
+      "board": "fanduel"
+    },
+    {
+      "name": "Spotify",
+      "industry": "Music & Audio",
+      "platform": "lever",
+      "board": "spotify"
+    },
+    {
+      "name": "Discord",
+      "industry": "Gaming & Community",
+      "platform": "greenhouse",
+      "board": "discord"
+    },
+    {
+      "name": "Roblox",
+      "industry": "Gaming",
+      "platform": "greenhouse",
+      "board": "roblox"
+    },
+    {
+      "name": "Epic Games",
+      "industry": "Gaming",
+      "platform": "greenhouse",
+      "board": "epicgames"
+    },
+    {
+      "name": "Twitch",
+      "industry": "Streaming",
+      "platform": "greenhouse",
+      "board": "twitch"
+    },
+    {
+      "name": "Genius Sports",
+      "industry": "Sports",
+      "platform": "auto",
+      "board": "geniussports"
+    },
+    {
+      "name": "WPP Media",
+      "industry": "Media & Advertising",
+      "platform": "auto",
+      "board": "wppmedia"
+    },
+    {
+      "name": "DraftKings",
+      "industry": "Sports",
+      "platform": "auto",
+      "board": "draftkings"
+    },
+    {
+      "name": "Fanatics",
+      "industry": "Sports",
+      "platform": "auto",
+      "board": "fanatics"
+    },
+    {
+      "name": "Sportradar",
+      "industry": "Sports",
+      "platform": "auto",
+      "board": "sportradar"
+    },
+    {
+      "name": "Hudl",
+      "industry": "Sports",
+      "platform": "auto",
+      "board": "hudl"
+    },
+    {
+      "name": "Teamworks",
+      "industry": "Sports",
+      "platform": "auto",
+      "board": "teamworks"
+    },
+    {
+      "name": "SeatGeek",
+      "industry": "Sports",
+      "platform": "auto",
+      "board": "seatgeek"
+    },
+    {
+      "name": "StubHub",
+      "industry": "Live Events",
+      "platform": "auto",
+      "board": "stubhub"
+    },
+    {
+      "name": "Vivid Seats",
+      "industry": "Live Events",
+      "platform": "auto",
+      "board": "vividseats"
+    },
+    {
+      "name": "The Athletic",
+      "industry": "Sports Media",
+      "platform": "auto",
+      "board": "theathletic"
+    },
+    {
+      "name": "Overtime",
+      "industry": "Sports Media",
+      "platform": "auto",
+      "board": "overtime"
+    },
+    {
+      "name": "Bleacher Report",
+      "industry": "Sports Media",
+      "platform": "auto",
+      "board": "bleacherreport"
+    },
+    {
+      "name": "DAZN",
+      "industry": "Sports Streaming",
+      "platform": "auto",
+      "board": "dazn"
+    },
+    {
+      "name": "FloSports",
+      "industry": "Sports Streaming",
+      "platform": "auto",
+      "board": "flosports"
+    },
+    {
+      "name": "OneFootball",
+      "industry": "Sports Media",
+      "platform": "auto",
+      "board": "onefootball"
+    },
+    {
+      "name": "Strava",
+      "industry": "Sports Technology",
+      "platform": "auto",
+      "board": "strava"
+    },
+    {
+      "name": "Peloton",
+      "industry": "Sports Technology",
+      "platform": "auto",
+      "board": "peloton"
+    },
+    {
+      "name": "Whoop",
+      "industry": "Sports Technology",
+      "platform": "auto",
+      "board": "whoop"
+    },
+    {
+      "name": "Oura",
+      "industry": "Sports Technology",
+      "platform": "auto",
+      "board": "oura"
+    },
+    {
+      "name": "Live Nation",
+      "industry": "Live Entertainment",
+      "platform": "auto",
+      "board": "livenation"
+    },
+    {
+      "name": "Ticketmaster",
+      "industry": "Live Entertainment",
+      "platform": "auto",
+      "board": "ticketmaster"
+    },
+    {
+      "name": "AXS",
+      "industry": "Live Entertainment",
+      "platform": "auto",
+      "board": "axs"
+    },
+    {
+      "name": "Eventbrite",
+      "industry": "Live Entertainment",
+      "platform": "auto",
+      "board": "eventbrite"
+    },
+    {
+      "name": "Dice",
+      "industry": "Live Entertainment",
+      "platform": "auto",
+      "board": "dice"
+    },
+    {
+      "name": "SoundCloud",
+      "industry": "Music & Audio",
+      "platform": "auto",
+      "board": "soundcloud"
+    },
+    {
+      "name": "Bandcamp",
+      "industry": "Music & Audio",
+      "platform": "auto",
+      "board": "bandcamp"
+    },
+    {
+      "name": "TIDAL",
+      "industry": "Music & Audio",
+      "platform": "auto",
+      "board": "tidal"
+    },
+    {
+      "name": "Deezer",
+      "industry": "Music & Audio",
+      "platform": "auto",
+      "board": "deezer"
+    },
+    {
+      "name": "Audiomack",
+      "industry": "Music & Audio",
+      "platform": "auto",
+      "board": "audiomack"
+    },
+    {
+      "name": "SiriusXM",
+      "industry": "Music & Audio",
+      "platform": "auto",
+      "board": "siriusxm"
+    },
+    {
+      "name": "iHeartMedia",
+      "industry": "Music & Audio",
+      "platform": "auto",
+      "board": "iheartmedia"
+    },
+    {
+      "name": "Universal Music Group",
+      "industry": "Music",
+      "platform": "auto",
+      "board": "universalmusicgroup"
+    },
+    {
+      "name": "Sony Music",
+      "industry": "Music",
+      "platform": "auto",
+      "board": "sonymusic"
+    },
+    {
+      "name": "Warner Music Group",
+      "industry": "Music",
+      "platform": "auto",
+      "board": "warnermusicgroup"
+    },
+    {
+      "name": "Riot Games",
+      "industry": "Gaming",
+      "platform": "auto",
+      "board": "riotgames"
+    },
+    {
+      "name": "Electronic Arts",
+      "industry": "Gaming",
+      "platform": "auto",
+      "board": "electronicarts"
+    },
+    {
+      "name": "Take-Two Interactive",
+      "industry": "Gaming",
+      "platform": "auto",
+      "board": "taketwo"
+    },
+    {
+      "name": "Zynga",
+      "industry": "Gaming",
+      "platform": "auto",
+      "board": "zynga"
+    },
+    {
+      "name": "Scopely",
+      "industry": "Gaming",
+      "platform": "auto",
+      "board": "scopely"
+    },
+    {
+      "name": "Supercell",
+      "industry": "Gaming",
+      "platform": "auto",
+      "board": "supercell"
+    },
+    {
+      "name": "King",
+      "industry": "Gaming",
+      "platform": "auto",
+      "board": "king"
+    },
+    {
+      "name": "Unity",
+      "industry": "Gaming",
+      "platform": "auto",
+      "board": "unity"
+    },
+    {
+      "name": "Niantic",
+      "industry": "Gaming",
+      "platform": "auto",
+      "board": "niantic"
+    },
+    {
+      "name": "PlayStation",
+      "industry": "Gaming",
+      "platform": "auto",
+      "board": "playstation"
+    },
+    {
+      "name": "Bungie",
+      "industry": "Gaming",
+      "platform": "auto",
+      "board": "bungie"
+    },
+    {
+      "name": "Crunchyroll",
+      "industry": "Entertainment",
+      "platform": "auto",
+      "board": "crunchyroll"
+    },
+    {
+      "name": "Vimeo",
+      "industry": "Media Technology",
+      "platform": "auto",
+      "board": "vimeo"
+    },
+    {
+      "name": "Canva",
+      "industry": "Creative Media",
+      "platform": "auto",
+      "board": "canva"
+    },
+    {
+      "name": "Pinterest",
+      "industry": "Media Technology",
+      "platform": "auto",
+      "board": "pinterest"
+    },
+    {
+      "name": "Reddit",
+      "industry": "Media & Community",
+      "platform": "auto",
+      "board": "reddit"
+    },
+    {
+      "name": "Snap",
+      "industry": "Media Technology",
+      "platform": "auto",
+      "board": "snap"
+    },
+    {
+      "name": "Tubi",
+      "industry": "Streaming",
+      "platform": "auto",
+      "board": "tubi"
+    },
+    {
+      "name": "Roku",
+      "industry": "Streaming",
+      "platform": "auto",
+      "board": "roku"
+    },
+    {
+      "name": "Fubo",
+      "industry": "Sports Streaming",
+      "platform": "auto",
+      "board": "fubo"
+    },
+    {
+      "name": "Paramount",
+      "industry": "Entertainment",
+      "platform": "auto",
+      "board": "paramount"
+    },
+    {
+      "name": "Netflix",
+      "industry": "Streaming",
+      "platform": "auto",
+      "board": "netflix"
+    },
+    {
+      "name": "Disney",
+      "industry": "Entertainment",
+      "platform": "auto",
+      "board": "disney"
+    },
+    {
+      "name": "NBCUniversal",
+      "industry": "Entertainment",
+      "platform": "auto",
+      "board": "nbcuniversal"
+    },
+    {
+      "name": "Warner Bros Discovery",
+      "industry": "Entertainment",
+      "platform": "auto",
+      "board": "wbd"
+    },
+    {
+      "name": "NBA",
+      "industry": "Sports",
+      "platform": "auto",
+      "board": "nba"
+    },
+    {
+      "name": "NFL",
+      "industry": "Sports",
+      "platform": "auto",
+      "board": "nfl"
+    },
+    {
+      "name": "MLB",
+      "industry": "Sports",
+      "platform": "auto",
+      "board": "mlb"
+    },
+    {
+      "name": "NHL",
+      "industry": "Sports",
+      "platform": "auto",
+      "board": "nhl"
+    }
+  ]
 }
