@@ -237,8 +237,8 @@
     {
       "name": "Sony Music",
       "industry": "Music",
-      "platform": "auto",
-      "board": "sonymusic"
+      "platform": "greenhouse",
+      "board": "sonymusicentertainment"
     },
     {
       "name": "Warner Music Group",
@@ -405,14 +405,14 @@
     {
       "name": "NFL",
       "industry": "Sports",
-      "platform": "auto",
-      "board": "nfl"
+      "platform": "greenhouse",
+      "board": "nflcareers"
     },
     {
       "name": "MLB",
       "industry": "Sports",
-      "platform": "auto",
-      "board": "mlb"
+      "platform": "greenhouse",
+      "board": "mlbevents"
     },
     {
       "name": "NHL",
