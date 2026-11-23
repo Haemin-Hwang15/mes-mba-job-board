@@ -5,7 +5,6 @@
     {"name":"Discord","industry":"Gaming & Community","platform":"greenhouse","board":"discord"},
     {"name":"Roblox","industry":"Gaming","platform":"greenhouse","board":"roblox"},
     {"name":"Epic Games","industry":"Gaming","platform":"greenhouse","board":"epicgames"},
-    {"name":"Twitch","industry":"Streaming","platform":"greenhouse","board":"twitch"},
-    {"name":"Figma","industry":"Creative Technology","platform":"ashby","board":"figma"}
-  ]
+    {"name":"Twitch","industry":"Streaming","platform":"greenhouse","board":"twitch"}
+    ]
 }
