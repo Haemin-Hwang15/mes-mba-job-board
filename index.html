@@ -6,20 +6,22 @@
   <title>MES MBA Career Board</title>
   <style>
     :root {font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:#202735;background:#f7f8fb}
-    *{box-sizing:border-box}body{margin:0}header{background:#14233b;color:white;padding:44px 20px}main,.header-inner{max-width:1080px;margin:auto}h1{font-size:clamp(28px,4vw,42px);margin:8px 0}header p{color:#cbd6e7;margin:0}.eyebrow{font-size:12px;letter-spacing:2px;font-weight:700;color:#a9c9ff}
-    main{padding:28px 18px 60px}.panel{background:white;border:1px solid #e4e8ef;border-radius:16px;padding:22px;margin-bottom:18px}.controls{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px}input,select{width:100%;padding:12px;border:1px solid #d6dce6;border-radius:9px;background:white;font-size:14px}label{font-size:12px;color:#657084;display:block;margin-bottom:6px;font-weight:600}.meta{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:#657084;font-size:13px;margin:18px 0}.job{padding:20px 0;border-bottom:1px solid #e8ebf0;display:flex;justify-content:space-between;gap:16px}.job:last-child{border-bottom:0}.company{font-size:13px;font-weight:700;color:#536785}.job h2{font-size:18px;margin:5px 0}.details{color:#697486;font-size:13px;line-height:1.8}.pill{display:inline-block;padding:4px 9px;border-radius:20px;background:#eaf0fa;color:#284b7e;font-size:12px;font-weight:600;margin-right:6px}a.apply{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;background:#234d8d;color:white;padding:10px 15px;border-radius:9px;text-decoration:none;font-size:13px;font-weight:700;height:fit-content}a.apply:hover{background:#173762}.notice{font-size:12px;color:#778195;margin-top:16px}.empty{padding:30px;text-align:center;color:#6b7484}footer{max-width:1080px;margin:0 auto;padding:0 18px 30px;color:#7a8391;font-size:12px}@media(max-width:650px){.controls{grid-template-columns:1fr}.job{flex-direction:column}.job h2{font-size:16px}header{padding:32px 18px}}
+    *{box-sizing:border-box}body{margin:0}header{background:#14233b;color:white;padding:44px 20px}main,.header-inner{max-width:1080px;margin:auto}h1{font-size:clamp(28px,4vw,42px);margin:8px 0}header p{color:#cbd6e7;margin:0}.nav{margin-top:18px;display:flex;gap:18px}.nav a{color:#dbe8ff;text-decoration:none;font-size:14px;font-weight:600}.nav a:hover{text-decoration:underline}.eyebrow{font-size:12px;letter-spacing:2px;font-weight:700;color:#a9c9ff}
+    main{padding:28px 18px 60px}.panel{background:white;border:1px solid #e4e8ef;border-radius:16px;padding:22px;margin-bottom:18px}.controls{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}.controls>div:first-child{grid-column:span 2}.controls>div{min-width:0}input,select{width:100%;padding:12px;border:1px solid #d6dce6;border-radius:9px;background:white;font-size:14px}label{font-size:12px;color:#657084;display:block;margin-bottom:6px;font-weight:600}.meta{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:#657084;font-size:13px;margin:18px 0}.job{padding:20px 0;border-bottom:1px solid #e8ebf0;display:flex;justify-content:space-between;gap:16px}.job:last-child{border-bottom:0}.company{font-size:13px;font-weight:700;color:#536785}.job h2{font-size:18px;margin:5px 0}.details{color:#697486;font-size:13px;line-height:1.8}.pill{display:inline-block;padding:4px 9px;border-radius:20px;background:#eaf0fa;color:#284b7e;font-size:12px;font-weight:600;margin-right:6px}a.apply{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;background:#234d8d;color:white;padding:10px 15px;border-radius:9px;text-decoration:none;font-size:13px;font-weight:700;height:fit-content}a.apply:hover{background:#173762}.notice{font-size:12px;color:#778195;margin-top:16px}.empty{padding:30px;text-align:center;color:#6b7484}footer{max-width:1080px;margin:0 auto;padding:0 18px 30px;color:#7a8391;font-size:12px}@media(max-width:850px){.controls{grid-template-columns:repeat(2,minmax(0,1fr))}.controls>div:first-child{grid-column:span 2}}@media(max-width:650px){.controls{grid-template-columns:1fr}.controls>div:first-child{grid-column:span 1}.job{flex-direction:column}.job h2{font-size:16px}header{padding:32px 18px}}
   </style>
 </head>
 <body>
-<header><div class="header-inner"><div class="eyebrow">MEDIA · ENTERTAINMENT · SPORTS</div><h1>MBA Career Board</h1><p>Discover global business internships and full-time opportunities.</p></div></header>
+<header><div class="header-inner"><div class="eyebrow">MEDIA · ENTERTAINMENT · SPORTS</div><h1>MBA Career Board</h1><p>Discover global business internships and full-time opportunities.</p><nav class="nav"><a href="./index.html">Job board</a><a href="./about.html">About & coverage</a></nav></div></header>
 <main>
   <section class="panel">
     <div class="controls">
       <div><label for="search">SEARCH</label><input id="search" placeholder="Company, title, location..." /></div>
       <div><label for="type">JOB TYPE</label><select id="type"><option value="">All job types</option><option value="Internship">Internship</option><option value="Full-time / Other">Full-time / Other</option></select></div>
-      <div><label for="category">CATEGORY</label><select id="category"><option value="">All categories</option></select></div>
+      <div><label for="industry">INDUSTRY</label><select id="industry"><option value="">All industries</option></select></div>
+      <div><label for="company">COMPANY</label><select id="company"><option value="">All companies</option></select></div>
+       <div><label for="category">ROLE CATEGORY</label><select id="category"><option value="">All role categories</option></select></div>
     </div>
-    <div class="meta"><span id="count">Loading jobs...</span><span id="updated"></span></div>
+    <div class="meta"><span id="count">Loading jobs...</span><span>Sorted by posted date (newest first) · <span id="updated"></span></span></div>
   </section>
   <section class="panel" id="results" aria-live="polite"><div class="empty">Loading job postings...</div></section>
   <p class="notice">Listings are collected automatically from public employer feeds. MBA eligibility, visa sponsorship, deadlines, and availability must be verified on the official application page. “Full-time / Other” may include roles that are not full-time.</p>
@@ -39,14 +41,50 @@
     if (className) node.className = className;
     return node;
   }
+  const ROLE_CATEGORIES = [
+    ['Strategy & Corporate Development', /strategy|strategic|corporate development|m&a|mergers|acquisition/i],
+    ['Finance & Accounting', /finance|financial|accounting|treasury|fp&a|tax|audit|controller|investor relations/i],
+    ['Product Management', /product manager|product management|product lead|product strategy/i],
+    ['Marketing & Growth', /marketing|growth|brand|performance marketing|acquisition marketing|crm|lifecycle/i],
+    ['Sales & Partnerships', /sales|partnership|business development|account executive|account management|sponsorship/i],
+    ['Business Operations', /operations|bizops|business ops|chief of staff|program management|process improvement/i],
+    ['Analytics & Insights', /analytics|analyst|insights|business intelligence|data science|research|forecast/i],
+    ['Content & Programming', /content|programming|editorial|production|creative|studio|licensing/i],
+    ['Media & Advertising', /advertis|ad sales|media planning|media buying|publisher|monetization/i],
+    ['People & Talent', /human resources|people|talent|recruit|compensation|learning and development/i],
+    ['Legal & Policy', /legal|counsel|compliance|policy|government affairs|privacy/i],
+    ['Technology & Engineering', /engineer|developer|software|security|technical|infrastructure|it support/i],
+    ['Design & User Experience', /design|ux|user experience|visual|art director/i],
+    ['Other Business Roles', /.*/]
+  ];
+  function roleCategory(j) {
+    const title = String(j.title || '');
+    const old = String(j.category || '');
+    for (const [name, pattern] of ROLE_CATEGORIES.slice(0,-1)) {
+      if (pattern.test(title)) return name;
+    }
+    for (const [name, pattern] of ROLE_CATEGORIES.slice(0,-1)) {
+      if (pattern.test(old)) return name;
+    }
+    return 'Other Business Roles';
+  }
+  const INDUSTRIES = ["Sports & Sports Tech", "Gaming & Esports", "Film, TV & Streaming", "Music & Audio", "Live Entertainment & Events", "Media, Publishing & Advertising", "Social & Creator Platforms", "Other Entertainment & Technology"];
+  const COMPANY_INDUSTRIES = {"FanDuel": "Sports & Sports Tech", "Spotify": "Music & Audio", "Discord": "Gaming & Esports", "Roblox": "Gaming & Esports", "Epic Games": "Gaming & Esports", "Twitch": "Social & Creator Platforms", "Genius Sports": "Sports & Sports Tech", "WPP Media": "Media, Publishing & Advertising", "DraftKings": "Sports & Sports Tech", "Fanatics": "Sports & Sports Tech", "Sportradar": "Sports & Sports Tech", "Hudl": "Sports & Sports Tech", "Teamworks": "Sports & Sports Tech", "SeatGeek": "Live Entertainment & Events", "StubHub": "Live Entertainment & Events", "Vivid Seats": "Live Entertainment & Events", "The Athletic": "Sports & Sports Tech", "Overtime": "Sports & Sports Tech", "Bleacher Report": "Sports & Sports Tech", "DAZN": "Sports & Sports Tech", "FloSports": "Sports & Sports Tech", "OneFootball": "Sports & Sports Tech", "Strava": "Sports & Sports Tech", "Peloton": "Sports & Sports Tech", "Whoop": "Sports & Sports Tech", "Oura": "Sports & Sports Tech", "Live Nation": "Live Entertainment & Events", "Ticketmaster": "Live Entertainment & Events", "AXS": "Live Entertainment & Events", "Eventbrite": "Live Entertainment & Events", "Dice": "Live Entertainment & Events", "SoundCloud": "Music & Audio", "Bandcamp": "Music & Audio", "TIDAL": "Music & Audio", "Deezer": "Music & Audio", "Audiomack": "Music & Audio", "SiriusXM": "Music & Audio", "iHeartMedia": "Music & Audio", "Universal Music Group": "Music & Audio", "Sony Music": "Music & Audio", "Warner Music Group": "Music & Audio", "Riot Games": "Gaming & Esports", "Electronic Arts": "Gaming & Esports", "Take-Two Interactive": "Gaming & Esports", "Zynga": "Gaming & Esports", "Scopely": "Gaming & Esports", "Supercell": "Gaming & Esports", "King": "Gaming & Esports", "Unity": "Gaming & Esports", "Niantic": "Gaming & Esports", "PlayStation": "Gaming & Esports", "Bungie": "Gaming & Esports", "Crunchyroll": "Film, TV & Streaming", "Vimeo": "Media, Publishing & Advertising", "Canva": "Other Entertainment & Technology", "Pinterest": "Social & Creator Platforms", "Reddit": "Social & Creator Platforms", "Snap": "Social & Creator Platforms", "Tubi": "Film, TV & Streaming", "Roku": "Film, TV & Streaming", "Fubo": "Sports & Sports Tech", "Paramount": "Film, TV & Streaming", "Netflix": "Film, TV & Streaming", "Disney": "Film, TV & Streaming", "NBCUniversal": "Film, TV & Streaming", "Warner Bros Discovery": "Film, TV & Streaming", "NBA": "Sports & Sports Tech", "NFL": "Sports & Sports Tech", "MLB": "Sports & Sports Tech", "NHL": "Sports & Sports Tech"};
+  function industryFor(j) {
+    return COMPANY_INDUSTRIES[String(j.company || '').trim()] || 'Other Entertainment & Technology';
+  }
   function render() {
     const q = $('search').value.toLowerCase().trim();
     const type = $('type').value;
     const category = $('category').value;
+     const company = $('company').value;
+    const industry = $('industry').value;
     const filtered = jobs.filter(j =>
       (!type || j.job_type === type) &&
-      (!category || (j.category || 'Business') === category) &&
-      [j.title,j.company,j.location,j.category,j.industry].some(x => String(x||'').toLowerCase().includes(q))
+       (!company || j.company === company) &&
+      (!industry || industryFor(j) === industry) &&
+      (!category || roleCategory(j) === category) &&
+      [j.title,j.company,j.location,j.category,industryFor(j)].some(x => String(x||'').toLowerCase().includes(q))
     );
     $('count').textContent = `${filtered.length} of ${jobs.length} listings`;
     const results = $('results');
@@ -59,9 +97,9 @@
       info.append(el('h2',j.title || 'Untitled position'));
       const tags = el('div');
       tags.append(el('span',j.job_type || 'Unspecified','pill'));
-      if(j.industry) tags.append(el('span',j.industry,'pill'));
+      tags.append(el('span',industryFor(j),'pill'));
       info.append(tags);
-      info.append(el('div',`${j.location || 'Location not specified'} · ${j.category || 'Business'} · Posted: ${safeDate(j.posted_date)}`,'details'));
+      info.append(el('div',`${j.location || 'Location not specified'} · ${roleCategory(j)} · Posted: ${safeDate(j.posted_date)}`,'details'));
       info.append(el('div',`Deadline: ${j.deadline || 'Not specified'} · Visa: ${j.visa_sponsorship || 'Not specified'}`,'details'));
       row.append(info);
       if (typeof j.apply_url === 'string' && /^https:\/\//i.test(j.apply_url)) {
@@ -77,7 +115,10 @@
       const data = await response.json();
       if (!Array.isArray(data.jobs)) throw new Error('Invalid jobs.json format');
       jobs = data.jobs.sort((a,b) => (Date.parse(b.posted_date)||0)-(Date.parse(a.posted_date)||0));
-      const categories = [...new Set(jobs.map(j => j.category || 'Business'))].sort();
+      INDUSTRIES.forEach(c => {const option=el('option',c);option.value=c;$('industry').append(option)});
+      const companies = [...new Set(jobs.map(j => j.company).filter(Boolean))].sort();
+       companies.forEach(c => {const option=el('option',c);option.value=c;$('company').append(option)});
+       const categories = [...new Set(jobs.map(roleCategory))].sort();
       categories.forEach(c => {const option=el('option',c);option.value=c;$('category').append(option)});
       $('updated').textContent = `Updated: ${safeDate(data.last_updated)}`;
       render();
@@ -86,7 +127,7 @@
       $('results').replaceChildren(el('div',`Could not load jobs.json (${error.message}). Check that the file exists in this repository.`,'empty'));
     }
   }
-  ['search','type','category'].forEach(id => $(id).addEventListener(id==='search'?'input':'change',render));
+  ['search','type','industry','company','category'].forEach(id => $(id).addEventListener(id==='search'?'input':'change',render));
   load();
 </script>
 </body>
