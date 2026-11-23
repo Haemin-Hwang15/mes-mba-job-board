@@ -160,7 +160,8 @@
       "name": "Live Nation",
       "industry": "Live Entertainment",
       "platform": "auto",
-      "board": "livenation"
+      "board": "livenation",
+      "careers_url": "https://www.livenationentertainment.com/careers/"
     },
     {
       "name": "Ticketmaster",
@@ -232,7 +233,8 @@
       "name": "Universal Music Group",
       "industry": "Music",
       "platform": "auto",
-      "board": "universalmusicgroup"
+      "board": "universalmusicgroup",
+      "careers_url": "https://www.universalmusic.com/careers/"
     },
     {
       "name": "Sony Music",
@@ -256,7 +258,8 @@
       "name": "Electronic Arts",
       "industry": "Gaming",
       "platform": "auto",
-      "board": "electronicarts"
+      "board": "electronicarts",
+      "careers_url": "https://www.ea.com/careers"
     },
     {
       "name": "Take-Two Interactive",
@@ -370,37 +373,43 @@
       "name": "Paramount",
       "industry": "Entertainment",
       "platform": "auto",
-      "board": "paramount"
+      "board": "paramount",
+      "careers_url": "https://careers.paramount.com"
     },
     {
       "name": "Netflix",
       "industry": "Streaming",
       "platform": "auto",
-      "board": "netflix"
+      "board": "netflix",
+      "careers_url": "https://explore.jobs.netflix.net/careers"
     },
     {
       "name": "Disney",
       "industry": "Entertainment",
       "platform": "auto",
-      "board": "disney"
+      "board": "disney",
+      "careers_url": "https://www.disneycareers.com/en/search-jobs"
     },
     {
       "name": "NBCUniversal",
       "industry": "Entertainment",
       "platform": "auto",
-      "board": "nbcuniversal"
+      "board": "nbcuniversal",
+      "careers_url": "https://www.nbcunicareers.com"
     },
     {
       "name": "Warner Bros Discovery",
       "industry": "Entertainment",
       "platform": "auto",
-      "board": "wbd"
+      "board": "wbd",
+      "careers_url": "https://careers.wbd.com"
     },
     {
       "name": "NBA",
       "industry": "Sports",
       "platform": "auto",
-      "board": "nba"
+      "board": "nba",
+      "careers_url": "https://careers.nba.com"
     },
     {
       "name": "NFL",
@@ -418,7 +427,8 @@
       "name": "NHL",
       "industry": "Sports",
       "platform": "auto",
-      "board": "nhl"
+      "board": "nhl",
+      "careers_url": "https://jobs.nhl.com"
     }
   ]
 }

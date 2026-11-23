@@ -1,5 +1,6 @@
 """Bulk MES job collection. No API keys or third-party packages needed."""
-import json, re, urllib.request, urllib.error, time
+import json, re, urllib.request, urllib.error, time, hashlib, xml.etree.ElementTree as ET, html
+from urllib.parse import urlparse, urljoin
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
@@ -57,6 +58,66 @@ def collect(company,platform):
    company_website=url,apply_url=url,source=platform.title()))
  return len(rows),jobs
 
+# Optional public sitemap + JobPosting structured-data adapter.
+# Only emits jobs when a real job detail page contains schema.org JobPosting.
+def fetch_text(url):
+ req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; MESJobBoard/1.1)','Accept':'text/html,application/xml,*/*'})
+ with urllib.request.urlopen(req,timeout=12) as response:
+  return response.read(2500000).decode('utf-8','replace')
+
+def sitemap_links(url, depth=0):
+ if depth>1: return []
+ try:
+  root=ET.fromstring(fetch_text(url))
+ except Exception: return []
+ ns='{http://www.sitemaps.org/schemas/sitemap/0.9}'
+ if root.tag.endswith('sitemapindex'):
+  nested=[x.text for x in root.findall('.//'+ns+'loc') if x.text]
+  priority=[x for x in nested if any(w in x.lower() for w in ('job','career','position','vacanc'))]
+  return [v for sub in (priority or nested[:5])[:8] for v in sitemap_links(sub,depth+1)]
+ return [x.text for x in root.findall('.//'+ns+'loc') if x.text]
+
+def job_objects(obj):
+ if isinstance(obj,list):
+  for v in obj: yield from job_objects(v)
+ elif isinstance(obj,dict):
+  typ=obj.get('@type',[])
+  if typ=='JobPosting' or isinstance(typ,list) and 'JobPosting' in typ: yield obj
+  for key in ('@graph','mainEntity'):
+   if key in obj: yield from job_objects(obj[key])
+
+def collect_sitemap(company):
+ root=company.get('careers_url','').rstrip('/')
+ if not root: raise ValueError('Missing careers_url')
+ domain=urlparse(root).netloc
+ candidates=company.get('sitemaps') or [f'https://{domain}/sitemap.xml',f'https://{domain}/sitemap_index.xml']
+ links=[]
+ for sm in candidates:
+  links.extend(sitemap_links(sm))
+  if links: break
+ # Avoid crawling non-job pages; only process relevant job-looking URLs.
+ links=list(dict.fromkeys(u for u in links if re.search(r'(/job[s]?/|/careers/.*/|/position[s]?/|/vacanc|/requisition)',u,re.I)))[:350]
+ jobs=[]
+ for url in links:
+  try:
+   page=fetch_text(url)
+   for match in re.findall(r'<script[^>]+type=[\"\']application/ld\+json[\"\'][^>]*>(.*?)</script>',page,re.I|re.S):
+    try: objs=list(job_objects(json.loads(html.unescape(match))))
+    except (ValueError,TypeError): continue
+    for obj in objs:
+     title=html.unescape(re.sub('<[^>]+>','',str(obj.get('title','')))).strip()
+     if not relevant(title): continue
+     loc=obj.get('jobLocation',{})
+     if isinstance(loc,list): loc=loc[0] if loc else {}
+     address=loc.get('address',{}) if isinstance(loc,dict) else {}
+     location=', '.join(str(address.get(k,'')) for k in ('addressLocality','addressRegion','addressCountry') if address.get(k)) if isinstance(address,dict) else ''
+     apply=obj.get('url') or url
+     if not isinstance(apply,str) or not apply.startswith('http'): apply=url
+     jid=hashlib.sha256(apply.encode()).hexdigest()[:20]
+     jobs.append(dict(id=f'sitemap-{company["name"].lower().replace(" ","-")}-{jid}',company=company['name'],industry=company['industry'],title=title,location=location,category='Business',job_type='Internship' if re.search(r'\b(intern|internship)\b',title,re.I) else 'Full-time / Other',posted_date=obj.get('datePosted'),updated_date=None,deadline=obj.get('validThrough'),visa_sponsorship='Not specified',company_website=root,apply_url=apply,source='Official careers page'))
+  except Exception: continue
+ return len(links),jobs
+
 def main():
  companies=json.loads((BASE/'sources.json').read_text(encoding='utf-8'))['companies']
  old_path=BASE/'jobs.json'
@@ -65,11 +126,12 @@ def main():
  for job in old.get('jobs',[]): old_by_company.setdefault(job['company'],[]).append(job)
  jobs={}; failed=[]; successes=0; found_companies=[]
  for company in companies:
-  platforms=PLATFORMS if company.get('platform')=='auto' else (company['platform'],)
+  platforms=PLATFORMS + (('sitemap',) if company.get('careers_url') else ()) if company.get('platform')=='auto' else (company['platform'],)
   errors=[]; connected=False
   for platform in platforms:
    try:
-    total,selected=collect(company,platform)
+    total,selected=collect_sitemap(company) if platform=='sitemap' else collect(company,platform)
+    if platform=='sitemap' and total==0: raise ValueError('No job URLs in public sitemap')
     successes+=1; connected=True;found_companies.append(company['name'])
     for job in selected: jobs[job['id']]=job
     print(f'OK {company["name"]} [{platform}]: {len(selected)} relevant / {total} total',flush=True)
