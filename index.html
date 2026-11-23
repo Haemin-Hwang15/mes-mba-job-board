@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MES MBA Career Board</title>
+  <style>
+    :root {font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:#202735;background:#f7f8fb}
+    *{box-sizing:border-box}body{margin:0}header{background:#14233b;color:white;padding:44px 20px}main,.header-inner{max-width:1080px;margin:auto}h1{font-size:clamp(28px,4vw,42px);margin:8px 0}header p{color:#cbd6e7;margin:0}.eyebrow{font-size:12px;letter-spacing:2px;font-weight:700;color:#a9c9ff}
+    main{padding:28px 18px 60px}.panel{background:white;border:1px solid #e4e8ef;border-radius:16px;padding:22px;margin-bottom:18px}.controls{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px}input,select{width:100%;padding:12px;border:1px solid #d6dce6;border-radius:9px;background:white;font-size:14px}label{font-size:12px;color:#657084;display:block;margin-bottom:6px;font-weight:600}.meta{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:#657084;font-size:13px;margin:18px 0}.job{padding:20px 0;border-bottom:1px solid #e8ebf0;display:flex;justify-content:space-between;gap:16px}.job:last-child{border-bottom:0}.company{font-size:13px;font-weight:700;color:#536785}.job h2{font-size:18px;margin:5px 0}.details{color:#697486;font-size:13px;line-height:1.8}.pill{display:inline-block;padding:4px 9px;border-radius:20px;background:#eaf0fa;color:#284b7e;font-size:12px;font-weight:600;margin-right:6px}a.apply{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;background:#234d8d;color:white;padding:10px 15px;border-radius:9px;text-decoration:none;font-size:13px;font-weight:700;height:fit-content}a.apply:hover{background:#173762}.notice{font-size:12px;color:#778195;margin-top:16px}.empty{padding:30px;text-align:center;color:#6b7484}footer{max-width:1080px;margin:0 auto;padding:0 18px 30px;color:#7a8391;font-size:12px}@media(max-width:650px){.controls{grid-template-columns:1fr}.job{flex-direction:column}.job h2{font-size:16px}header{padding:32px 18px}}
+  </style>
+</head>
+<body>
+<header><div class="header-inner"><div class="eyebrow">MEDIA · ENTERTAINMENT · SPORTS</div><h1>MBA Career Board</h1><p>Discover global business internships and full-time opportunities.</p></div></header>
+<main>
+  <section class="panel">
+    <div class="controls">
+      <div><label for="search">SEARCH</label><input id="search" placeholder="Company, title, location..." /></div>
+      <div><label for="type">JOB TYPE</label><select id="type"><option value="">All job types</option><option value="Internship">Internship</option><option value="Full-time / Other">Full-time / Other</option></select></div>
+      <div><label for="category">CATEGORY</label><select id="category"><option value="">All categories</option></select></div>
+    </div>
+    <div class="meta"><span id="count">Loading jobs...</span><span id="updated"></span></div>
+  </section>
+  <section class="panel" id="results" aria-live="polite"><div class="empty">Loading job postings...</div></section>
+  <p class="notice">Listings are collected automatically from public employer feeds. MBA eligibility, visa sponsorship, deadlines, and availability must be verified on the official application page. “Full-time / Other” may include roles that are not full-time.</p>
+</main>
+<footer>MES MBA Career Board · Automated daily updates</footer>
+<script>
+  let jobs = [];
+  const $ = id => document.getElementById(id);
+  function safeDate(value) {
+    if (!value) return 'Not specified';
+    const d = new Date(value);
+    return Number.isNaN(d.getTime()) ? 'Not specified' : d.toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric'});
+  }
+  function el(tag, text, className) {
+    const node = document.createElement(tag);
+    if (text !== undefined) node.textContent = text;
+    if (className) node.className = className;
+    return node;
+  }
+  function render() {
+    const q = $('search').value.toLowerCase().trim();
+    const type = $('type').value;
+    const category = $('category').value;
+    const filtered = jobs.filter(j =>
+      (!type || j.job_type === type) &&
+      (!category || (j.category || 'Business') === category) &&
+      [j.title,j.company,j.location,j.category,j.industry].some(x => String(x||'').toLowerCase().includes(q))
+    );
+    $('count').textContent = `${filtered.length} of ${jobs.length} listings`;
+    const results = $('results');
+    results.replaceChildren();
+    if (!filtered.length) {results.append(el('div','No matching jobs found.','empty'));return;}
+    filtered.forEach(j => {
+      const row = el('article',undefined,'job');
+      const info = el('div');
+      info.append(el('div',j.company || 'Unknown company','company'));
+      info.append(el('h2',j.title || 'Untitled position'));
+      const tags = el('div');
+      tags.append(el('span',j.job_type || 'Unspecified','pill'));
+      if(j.industry) tags.append(el('span',j.industry,'pill'));
+      info.append(tags);
+      info.append(el('div',`${j.location || 'Location not specified'} · ${j.category || 'Business'} · Posted: ${safeDate(j.posted_date)}`,'details'));
+      info.append(el('div',`Deadline: ${j.deadline || 'Not specified'} · Visa: ${j.visa_sponsorship || 'Not specified'}`,'details'));
+      row.append(info);
+      if (typeof j.apply_url === 'string' && /^https:\/\//i.test(j.apply_url)) {
+        const a = el('a','Apply ↗','apply');a.href=j.apply_url;a.target='_blank';a.rel='noopener noreferrer';row.append(a);
+      }
+      results.append(row);
+    });
+  }
+  async function load() {
+    try {
+      const response = await fetch('./jobs.json',{cache:'no-store'});
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const data = await response.json();
+      if (!Array.isArray(data.jobs)) throw new Error('Invalid jobs.json format');
+      jobs = data.jobs.sort((a,b) => (Date.parse(b.posted_date)||0)-(Date.parse(a.posted_date)||0));
+      const categories = [...new Set(jobs.map(j => j.category || 'Business'))].sort();
+      categories.forEach(c => {const option=el('option',c);option.value=c;$('category').append(option)});
+      $('updated').textContent = `Updated: ${safeDate(data.last_updated)}`;
+      render();
+    } catch (error) {
+      $('count').textContent = 'Unable to load jobs';
+      $('results').replaceChildren(el('div',`Could not load jobs.json (${error.message}). Check that the file exists in this repository.`,'empty'));
+    }
+  }
+  ['search','type','category'].forEach(id => $(id).addEventListener(id==='search'?'input':'change',render));
+  load();
+</script>
+</body>
+</html>
